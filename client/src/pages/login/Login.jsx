@@ -21,9 +21,9 @@ export default function Login() {
     <div className="login">
       <div className="loginWrapper">
         <div className="loginLeft">
-          <h3 className="loginLogo">Lamasocial</h3>
+          <h3 className="loginLogo">Yeon's Blog</h3>
           <span className="loginDesc">
-            Connect with friends and the world around you on Lamasocial.
+            Node JS, React js로  Blog UI Design project!!
           </span>
         </div>
         <div className="loginRight">
@@ -47,15 +47,15 @@ export default function Login() {
               {isFetching ? (
                 <CircularProgress color="white" size="20px" />
               ) : (
-                "Log In"
+                "로그인"
               )}
             </button>
-            <span className="loginForgot">Forgot Password?</span>
+            <span className="loginForgot">비밀번호를 잊어버렸나요?</span>
             <button className="loginRegisterButton">
               {isFetching ? (
                 <CircularProgress color="white" size="20px" />
               ) : (
-                "Create a New Account"
+                "계정만들기"
               )}
             </button>
           </form>

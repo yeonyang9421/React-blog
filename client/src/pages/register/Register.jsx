@@ -33,28 +33,28 @@ export default function Register() {
     <div className="login">
       <div className="loginWrapper">
         <div className="loginLeft">
-          <h3 className="loginLogo">Lamasocial</h3>
+          <h3 className="loginLogo">Yeon's Blog</h3>
           <span className="loginDesc">
-            Connect with friends and the world around you on Lamasocial.
+            Node JS, React js로  Blog UI Design project!!
           </span>
         </div>
         <div className="loginRight">
           <form className="loginBox" onSubmit={handleClick}>
             <input
-              placeholder="Username"
+              placeholder="아이디"
               required
               ref={username}
               className="loginInput"
             />
             <input
-              placeholder="Email"
+              placeholder="이메일"
               required
               ref={email}
               className="loginInput"
               type="email"
             />
             <input
-              placeholder="Password"
+              placeholder="비밀번호"
               required
               ref={password}
               className="loginInput"
@@ -62,16 +62,16 @@ export default function Register() {
               minLength="6"
             />
             <input
-              placeholder="Password Again"
+              placeholder="비밀번호 확인"
               required
               ref={passwordAgain}
               className="loginInput"
               type="password"
             />
             <button className="loginButton" type="submit">
-              Sign Up
+              로그인
             </button>
-            <button className="loginRegisterButton">Log into Account</button>
+            <button className="loginRegisterButton">계정만들기</button>
           </form>
         </div>
       </div>
